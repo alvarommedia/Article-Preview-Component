@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Article Preview Component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <script src="js/Share.js" defer></script>
+  </head>
+  <body>
+    <article class="article">
+      <img src="images/drawers.jpg" alt="" class="article__img" />
+      <section class="article__info">
+        <div class="article__info-container">
+          <h1 class="article__title">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
+          <p class="article__text">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </div>
+        <footer class="article__footer">
+          <div class="article__creator-container" id="articleCreator">
+            <div class="article__creator">
+              <img
+                class="article__creator-image"
+                src="images/avatar-michelle.jpg"
+                alt="Michelle Appleton"
+              />
+              <section class="article__creator-info">
+                <h2 class="article__creator-name">Michelle Appleton</h2>
+                <time class="article__creator-date">28 Jun 2020</time>
+              </section>
+              <button
+                class="article__share-button article__share-button--mobile"
+                id="shareButtonMobile"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="13"
+                  class="article__share-button-img"
+                  id="imageShareButton"
+                >
+                  <path
+                    d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
+                  />
+                </svg>
+              </button>
+              <button
+                class="article__share-button article__share-button--desktop"
+                id="shareButtonDesktop"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="13"
+                  class="article__share-button-img"
+                  id="imageShareButtonDesktop"
+                >
+                  <path
+                    d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="article__share" id="articleShare">
+            <div class="article__share-container">
+              <p class="article__share-text">SHARE</p>
+              <div class="article-share-icons">
+                <img
+                  src="images/icon-facebook.svg"
+                  alt="Facebook Logo"
+                  class="article__share-icon"
+                />
+                <img
+                  src="images/icon-twitter.svg"
+                  alt="Twitter Logo"
+                  class="article__share-icon"
+                />
+                <img
+                  src="images/icon-pinterest.svg"
+                  alt="Pinterest Logo"
+                  class="article__share-icon"
+                />
+              </div>
+              <button
+                class="article__share-button article__share-button--active"
+                id="shareButtonActive"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13">
+                  <path
+                    class="article__share-button-img--active"
+                    d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </article>
+  </body>
+</html>
