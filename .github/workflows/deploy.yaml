@@ -15,4 +15,3 @@ jobs:
           username: nginx
           password: ${{ secrets.ftp_password }}
           dry-run: true
-          local-dir: ./article_preview_component/
