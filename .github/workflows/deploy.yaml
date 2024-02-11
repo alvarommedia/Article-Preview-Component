@@ -12,7 +12,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ftp.alvarommedia.com
-          username: myFtpUserName
+          username: nginx
           password: ${{ secrets.ftp_password }}
           dry-run: true
           local-dir: ./article_preview_component/
