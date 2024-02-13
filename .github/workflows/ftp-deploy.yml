@@ -19,7 +19,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./
           server-dir: /alvarommedia/html/article-preview-component/
-          exclude: |
+          exclude:  |
           **/.git*
           **/.git*/**
           **/node_modules/**
